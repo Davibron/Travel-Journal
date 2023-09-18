@@ -1,0 +1,94 @@
+* {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0%;
+  padding: 0%;
+  font-family: poppins, Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FA5252;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 3px;
+  height: 50px;
+}
+
+.world {
+  background: transparent;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  height: 280px;
+}
+
+.travel-info {
+  padding-top: 30px;
+}
+
+.display-img {
+  width: 25%;
+  object-fit: cover;
+  border-radius: 7px;
+  margin: 20px;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.location-icon {
+  height: 15px;
+  margin-right: 3px;
+}
+
+a {
+  margin-left: 17px;
+  font-size: 14px;
+  margin-top: 2px;
+  opacity: 0.5;
+}
+
+.name {
+  margin: 8px 0px 16px 0px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.date {
+  margin: 8px 0px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 13px;
+}
+
+@media (max-width:730px ) {
+  .navbar {
+    border-radius: 8px 8px 0px 0px;
+    margin: 7px 2px 0px 2px;
+  }
+
+  .info {
+    width: 600px;
+  }
+
+  .date {
+    font-size: 11px;
+  }
+
+  .description {
+    font-size: 11px;
+  }
+}
